@@ -1,1 +1,66 @@
-haechan
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Menghubungkan CSS eksternal -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <section id="home">
+            <h2>Beranda</h2>
+            <p>Ini adalah halaman utama dari website saya. Di sini Anda bisa menemukan berbagai informasi menarik.</p>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Website ini dibuat untuk memberikan informasi kepada pengguna mengenai berbagai hal menarik.</p>
+        </section>
+
+        <section id="services">
+            <h2>Layanan Kami</h2>
+            <ul>
+                <li>Desain Web</li>
+                <li>Pengembangan Aplikasi</li>
+                <li>Konsultasi IT</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak</h2>
+            <form action="#" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Website Saya. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
